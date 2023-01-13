@@ -1,4 +1,3 @@
-import FastpackPluginLessLoader from '@weblif/plugin-less-loader'
 import ESLintPlugin from 'eslint-webpack-plugin'
 import { getFastpackConfig } from '@weblif/fastpack'
 
@@ -21,10 +20,6 @@ export default getFastpackConfig({
         ]
     },
     plugins: [
-        new FastpackPluginLessLoader({}),
         new WebpackChainPlugin()
     ],
-    links: [
-        // 'test@http://127.0.0.1:8085/fastpack.share.js'
-    ]
 })
