@@ -12,7 +12,7 @@
     },
     "dependencies": {
         "@ant-design/icons": "4.7.0",
-        "@weblif/fast-ui": "0.29.8",
+        "@weblif/fast-ui": "0.30.3",
         "axios": "1.2.2"
     },
     "devDependencies": {
